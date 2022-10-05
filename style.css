@@ -12,7 +12,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 98vh;
+    height: 100vh;
     max-height: 100vh;
 }
 
@@ -128,4 +128,134 @@ header{
   .button-56 {
     padding: 0 40px;
   }
+}
+
+@media (max-width: 768px) {
+  #name {
+    font-size: 4rem;
+  }
+  #info .text{
+    font-size: 1rem;
+    margin: 30px 0px;
+}
+  #info .redes{
+  font-size: 1.4rem;
+}
+  header{
+    justify-content: center;
+    align-items: start;
+}
+#info-line::before{
+  height: 350px;
+}
+}
+
+#sessao01,#sessao02{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thec-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  margin: 40px;
+  color: #fff;
+
+}.tech-title h3{
+  color: #fff;
+}
+
+#sessao01 .tech{
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+}
+
+#sessao01 .tech-control{
+  background-color: #E86962;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  box-shadow:5px 5px 1px black;
+}
+
+#sessao01 .tech i{
+  color: #232323;
+  font-size: 3rem;
+  text-shadow: inset 5px 5px 1px black;
+}
+
+#sessao02 h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  margin: 40px;
+  color: #fff;
+}
+
+#sessao02 a{
+  text-decoration: none;
+}
+.text-hover::after{
+  content: "projetos";
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+
+}.text-hover-2::after{
+  content: ".Works";
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #E86962;
+  top: 10px;
+  text-shadow: 5px 5px 1px black;
+}
+
+.red{
+  color: red;
+}
+
+/* Pagina 02 */
+
+#pag02 .projetos{
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+#pag02 .projetos .btn-pg2{
+  margin: 0;
+}
+
+#pag02 a{
+  text-decoration: none;
+}
+
+#pag02 .title{
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#pag02 .text{
+  margin-bottom: 40px;
 }
